@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Gif from "./Gif";
-import getGifs from "../services/getGifs";
+import getGifs from "../../services/getGifs";
 
 export default function ListOfGifs({ params }) {
   const [loading, setLoading] = useState(false);
